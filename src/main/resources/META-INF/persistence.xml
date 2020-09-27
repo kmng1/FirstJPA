@@ -13,9 +13,9 @@
        		 
 			<property name="hibernate.dialect" value="org.hibernate.dialect.MySQL5InnoDBDialect" />
 			<property name="hibernate.connection.driver_class" value="com.mysql.jdbc.Driver" />
-			<property name="hibernate.connection.url" value="jdbc:mysql://localhost/udemy?serverTimezone=UTC" />
-			<property name="hibernate.connection.user" value="balazs" />
-			<property name="hibernate.connection.password" value="balazs" />
+			<property name="hibernate.connection.url" value="jdbc:mysql://javacourse.crawqzt4trge.ap-southeast-1.rds.amazonaws.com/udemy?serverTimezone=UTC" />
+			<property name="hibernate.connection.user" value="admin" />
+			<property name="hibernate.connection.password" value="mysqlmaster" />
             <property name="hibernate.hbm2ddl.auto" value="create"/>
  
 			<property name="hibernate.show_sql" value="true" />
