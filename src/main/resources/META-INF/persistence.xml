@@ -10,8 +10,9 @@
         
         <properties>
        		<property name="hibernate.archive.autodetection" value="class" />
-       		 
-			<property name="hibernate.dialect" value="org.hibernate.dialect.MySQL5InnoDBDialect" />
+			<!--https://stackoverflow.com/questions/48062256/where-to-put-hibernate-dialect-storage-engine-property-->
+			<!--property name="hibernate.dialect" value="org.hibernate.dialect.MySQL5InnoDBDialect" /-->
+			<property name="hibernate.dialect" value="org.hibernate.dialect.MySQL55Dialect" />
 			<property name="hibernate.connection.driver_class" value="com.mysql.jdbc.Driver" />
 			<property name="hibernate.connection.url" value="jdbc:mysql://javacourse.crawqzt4trge.ap-southeast-1.rds.amazonaws.com/udemy?serverTimezone=UTC" />
 			<property name="hibernate.connection.user" value="admin" />
