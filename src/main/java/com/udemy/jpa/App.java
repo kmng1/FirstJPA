@@ -18,8 +18,8 @@ public class App {
 		s.setName("Daniel");
 		
 		Student s2 = new Student();
-		s.setAge(312);
-		s.setName("Adam");
+		s2.setAge(312);
+		s2.setName("Adam");
 		
 		entityManager.persist(s);
 		entityManager.persist(s2);
